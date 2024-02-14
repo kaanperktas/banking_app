@@ -3,9 +3,6 @@ package com.kaanperktas.banking.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Getter
 @Setter
 @NoArgsConstructor
@@ -20,13 +17,6 @@ public class  Account {
     @Column(name = "account_holder_name")
     private String accountHolderName;
     private double balance;
-
-
-
-    int num = 10;
-    String result = (num > 0) ? "Pozitif" : (num < 0) ? "Negatif" : "Sıfır";
-
-     // Ekrana "Pozitif" yazdırır
 
 
 }
